@@ -1,3 +1,7 @@
+:root {
+    --success-color: #2691d9;
+    --error-color: #d81923;
+}
 * {
     padding: 0;
     margin: 0;
@@ -53,7 +57,7 @@ html {
 
 .form-group {
     display: flex;
-    margin-bottom: 16px;
+    margin-bottom: 40px;
     flex-direction: column;
 }
 
@@ -119,6 +123,21 @@ html {
 
 .spacer {
     margin-top: 36px;
+}
+
+.signup-link {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+
+}
+.signup-link a {
+    color: var(--success-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+.signup-link a:hover {
+    text-decoration: underline;
 }
 
 
