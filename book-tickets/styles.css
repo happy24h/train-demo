@@ -64,7 +64,7 @@ form input {
     width: 20rem;
     padding: .7rem;
     border: none;
-    border-radius: 5px;
+    /* border-radius: 10px; */
     outline: none;
     font-size: 1rem;
     border-bottom: 2px solid var(--color-sec);
