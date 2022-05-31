@@ -61,8 +61,6 @@
                 pane.classList.add("active");// Thêm thêm class(.active) vào attribute
             }
         })
-
-
           // model
 
 var btnOpen = document.querySelector('.open-modal-btn')
