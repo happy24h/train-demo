@@ -13,6 +13,8 @@
     font-size: 18px;
     text-align: center;
     margin: 5px 10px;
+    border-radius: 12px;
+    border: none;
    
   }
 .grid-container {
